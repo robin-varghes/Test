@@ -17,7 +17,7 @@ public class PersonController {
 	private UserRatingService userRatingService;
 
 	@RequestMapping(value = "/rating", method = RequestMethod.GET)
-	public String listPersons(Model model) throws IOException {
+	public String listPersonsRating(Model model) throws IOException {
 		model.addAttribute("count", userRatingService.totalUserRatingCount());
 		model.addAttribute("avg", userRatingService.averageUserRatingCount());
 		model.addAttribute("ratings", userRatingService.findAll());
