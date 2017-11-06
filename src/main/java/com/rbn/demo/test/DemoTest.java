@@ -7,6 +7,9 @@ public class DemoTest {
 
 		System.out.println("sample TEst new");
 		System.out.println("sample TEst new line");
+		
+		System.out.println("sample TEst new");
+		System.out.println("sample TEst new line");
 
 	}
 
